@@ -10,7 +10,6 @@
 #ifdef RENEWAL_BOOK_NAME
 		std::string GetSkillName(DWORD dwVnum) {
 			auto it = skill_list.find(dwVnum);
-			if (it == skill_list.end()) return "";
-			return it->second;
+			return it == skill_list.end() ? "" : it->second;
 		}
 #endif
