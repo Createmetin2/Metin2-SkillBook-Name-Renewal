@@ -11,7 +11,6 @@
 		std::string GetSkillName(DWORD dwVnum) {
 			auto it = skill_list.find(dwVnum);
 			if (it == skill_list.end()) return "";
-			std::string name = it->second;
-			return name;
+			return it->second;
 		}
 #endif
