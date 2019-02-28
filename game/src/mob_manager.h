@@ -1,5 +1,5 @@
 //Find
-    const CMob *	Get(const char * c_pszName, bool bIsAbbrev);
+    		const CMob *	Get(const char * c_pszName, bool bIsAbbrev);
 ///Add
 #ifdef RENEWAL_BOOK_NAME
 		std::string GetMobName(DWORD dwVnum) {
