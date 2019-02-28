@@ -1,3 +1,10 @@
+///Add
+#ifdef RENEWAL_BOOK_NAME
+#include "skill.h"
+#include "unique_item.h"
+#include "mob_manager.h"
+#endif
+
 //Find
 		const char *	GetName()
 		
