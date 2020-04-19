@@ -28,6 +28,6 @@
 			}
 			return lname.c_str();
 #else
-			return m_pProto ? m_pProto->szLocaleName : nullptr; 
+			return m_pProto ? m_pProto->szLocaleName : ""; 
 #endif
 		}
