@@ -12,7 +12,7 @@
 		const char *	GetName()
 		{ 
 #ifdef RENEWAL_BOOK_NAME
-			if (!m_pProto) return nullptr;
+			if (!m_pProto) return "";
 			std::string lname;
 			switch (m_dwVnum) {
 				case 70104:
